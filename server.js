@@ -15,7 +15,9 @@ const app = express()
 
 
 // Mount routes
-
+app.get('/',function(req, res){
+  
+})
 
 
 // Tell the app to listen on port 3000
