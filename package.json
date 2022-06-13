@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jonesdy99/Express-Student/issues"
   },
-  "homepage": "https://github.com/jonesdy99/Express-Student#readme"
+  "homepage": "https://github.com/jonesdy99/Express-Student#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
