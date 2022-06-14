@@ -29,8 +29,11 @@ app.get('/home',function(req,res){
 })
   
 app.get('/sauce',function(req,res){
-  res.render()
+  res.render('sauce/index', {
+    sauce: sauce
+  })
 })
+
 // Tell the app to listen on port 3000
 
 app.listen(3000, function() {
