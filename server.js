@@ -20,9 +20,9 @@ app.set('view engine','ejs')
 //   res.send('<h1>AYO where the sauce?!</h1>')
 // })
 
-app.get('/home',function(req,res){
-  res.render('home')
-})
+// app.get('/home',function(req,res){
+//   res.render('home')
+// })
 
 app.get('/home',function(req,res){
   res.send('<h1>Home Page for ALL THE SAUCE</h1>')
